@@ -5,37 +5,51 @@ A collection of Playwright and TypeScript practice scenarios created while prepa
 
 ## Project Overview
 
-This repository contains individual Playwright test scenarios for practising UI automation concepts and strengthening browser automation skills.
+This repository contains three standalone Playwright test scenarios demonstrating UI automation techniques using the TestMu AI Selenium Playground.
+
+## Scenarios Covered
+
+### 1. Simple Form Demo
+- Navigate to the Simple Form Demo page.
+- Interact with the form.
+- Validate the expected message.
+
+### 2. Drag and Drop Sliders
+- Locate and interact with a range slider.
+- Adjust the slider using keyboard interactions.
+- Validate the expected slider value.
+
+### 3. Input Form Submit
+- Fill in form fields.
+- Interact with dropdowns and buttons.
+- Validate the form submission confirmation message.
 
 ## Tech Stack
 
 - Playwright Test
 - TypeScript
-- Node.js
 - Git and GitHub
 
-## Project Structure
+## Repository Structure
 
 ```text
 lambdatest-scenarios/
 ├── scenario1.spec.ts
 ├── scenario2.spec.ts
-└── scenario3.spec.ts
+├── scenario3.spec.ts
+└── README.md
 ```
 
-## Getting Started
-
-### Prerequisites
+## Prerequisites
 
 - Node.js and npm
-- Git
+- A configured Playwright project with the required dependencies
 
+## Running the Scenarios
 
-### Set Up the Project
+These files are practice scenarios. To execute them, place them in a configured Playwright project and ensure the required Playwright dependencies are installed.
 
-This repository contains three Playwright test scenario files. To run them, place the files in a configured Playwright project with the required dependencies and configuration.
-
-### Run the scenarios
+Run the tests with:
 
 ```bash
 npx playwright test
@@ -43,7 +57,7 @@ npx playwright test
 
 ## Purpose
 
-This repository demonstrates hands-on practice with Playwright and TypeScript as part of ongoing automation testing and certification preparation.
+This repository demonstrates hands-on practice with Playwright and TypeScript through certification-oriented automation exercises.
 
 ## Author
 
